@@ -1,0 +1,35 @@
+Question 1:
+    Find the max element in an array.
+        [sudo code written]
+    
+Question 2:
+    Remove duplicates from an array and print its size.
+        [remove_dup.cpp]
+
+Question 3:
+    Rotate an array by k steps.
+        [arr_rotation.cpp]
+
+Question 4:
+    What is the time complexity of inserting/deleting from beginning of an array.
+    What is the time complexity of inserting/deleting from end of an array.
+    What is the time complexity of inserting/deleting from beginning of a linked list.
+    What is the time complexity of inserting/deleting from end of a linked list.
+
+Question 5:
+    Find the second largest element in an array.
+        [sec_large_ele.cpp]
+
+Question 6:
+    Maximum sum of a contigeous subarray.
+        [max_sum_subarr.cpp]
+
+-------------------------------------
+
+Question 7:
+    Container with most water. (LeetCode problem 11)
+        [most_water.cpp]
+
+Question 8:
+    Product of array except self.
+        [array_product.cpp]
