@@ -1,0 +1,28 @@
+Mathematical functions
+
+Question 1:
+    find GCD of 2 numbers. (Binary GCD)
+
+Question 2:
+    Delete one: Given arr[n], delete one element such that GCD of reamining elements becomes maximum.
+    24, 16, 18, 30, 15
+
+Notes:
+    LCM
+        a*b/gcd(a,b)
+
+Question 3:
+    You are given an array of size n, find the numbers of pairs (i, j) such that i<j and 
+    LCM(arr[i], arr[j]) > max(arr[i], arr[j]) * 10
+
+Prime factorization
+
+Question 4:
+    Array of given size n, count the number of ordered pairs such that, i < j and
+    arr[i] , arr[j] share at least one common prime factor.
+
+Notes:
+    Modular arithmetic
+
+Notes:
+    Euler Totient functions

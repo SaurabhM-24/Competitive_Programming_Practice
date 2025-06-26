@@ -1,0 +1,42 @@
+Special Index - an index, after removing which, sum of all even-indexed elements is equal to sum of odd-indexed elements.
+
+Question 1:
+    Given an array of size N count te number of special index in the array.
+    Time = O(n), space = O(n)
+    [special_index.cpp]
+
+Question 2:
+    Given a string, find the length of the longest palindromic substring
+    brute force = O(n^3)
+    expand around the center = O(n^2)
+
+    Manacher's Algorithm = O(n) ~~ not done
+    [palindrome_substr.cpp]
+
+------------------------------------------
+
+Question 3:
+    Quick sort.
+        |
+    related ques
+        |
+        \/
+Question 4:
+    You are given a permuatation P[1...n] and integer k
+    - choose k distinct elements from the permutation
+    - remove them, sort them in increasing order & append them to the end of permutation
+
+    - your goal is to sort the permutation in as few operations as possible
+    - return the minimum number of operations required.
+
+    e.g. 2,3,1,4 ; k=2      ans = 2..?
+
+Binary Search
+
+Question 5:
+    You are given a rotated array and a target. Find the index of the target.
+    time = O(log n)
+
+Question 6:
+    Find the peak element in an array.
+    peak = it is not smaller than its neighbour.

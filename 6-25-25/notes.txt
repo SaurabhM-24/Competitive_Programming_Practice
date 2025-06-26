@@ -1,0 +1,57 @@
+Question 1:
+    Given an array and integer m, find count of pair (i, j) such that
+    (arr[i] + arr[j]) % m = 0
+        n^2 = simple
+        n log(n) = sort then use two pointer..?
+        n = find remainder and solve using buckets
+
+        [mod_pair.cpp]
+    
+Notes:
+    Given a number N, check if it is prime or not.
+        complexity = O(sqrt(N))
+
+        bool isPrime(int n) {
+            for(int i=2; i*i<=n, i++) {
+                if(n%i==0)
+                    return false;
+            }
+            return true;
+        }
+
+Question 2:
+    Find out all prime numbers from 1 to N
+        complexity = O( n sqrt(n))
+
+        Seive of Eratosthenes
+        [seive_of_eratosthenes.cpp]
+
+Question 3:
+    Return the smallest prime factors of range 1 to n.
+        [smallest_prime_factor_range.cpp]
+
+        Complexity = O( log log n) ~ O(n)
+
+Notes:
+    Prefix Sum
+    Used in range calcuations.
+
+    {
+        calcuate the prefix sum (pf) of the given array {time = O(n), space = O(n)}
+        then:
+        L = left
+        R = right
+
+        if(L==0)
+            sum = pf[R]
+        elements
+            pf[R] - pf[L-1]
+    }
+
+Question 4:
+    Given an array on size n and Q queries[L, R]
+    return the sum of all the even indexed elements from L to R
+        [even_index_sum.cpp]
+    
+    similar question for odd index sum
+        [odd_index_sum.cpp]
