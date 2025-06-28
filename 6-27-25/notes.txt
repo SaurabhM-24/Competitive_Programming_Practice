@@ -1,0 +1,58 @@
+Greedy Approach - You make the local optimal choice at every step,
+    hoping it leads to globally optimal solution
+
+    (choose the best at that moment)
+
+    Why use?
+    - usually time = O(n log n) or better
+    - simple to implement
+    - works for optimized solution with specific structure
+
+
+Question 1:
+    Activity Selection Processing
+
+    Given a set of activities' start time (start[]) and end time (finish[]).
+    A single person can perform only 1 activity at a time (no 2 activities can overlap).
+    Find maximum number of activities a person can complete in a day.
+
+    Sample:
+        start =  1, 3, 0, 5, 8, 5
+        finish = 2, 4, 6, 7, 9, 9
+
+        ans = 4
+
+    [act_select.cpp]
+
+Question 2:
+    Leetcode 2952
+    Minimum Number of Coins to be Added
+
+Question 3:
+    There are N students with given marks. The teacher has to distribute some candies such that -
+    - every student has at least 1 candy
+    - student with more marks than any of his neighbours gets more candy than them
+    - minimise the number of candies distributed
+
+    [candies.cpp]
+
+Question 4:
+    Leetcode 55
+        done
+
+Question 5:
+    Leetcode 45
+        done
+
+Question 6:
+    Leetcode 991
+        done
+
+Question 7:
+    Leetcode 122
+        done
+
+
+Home work problems - 646, 630, 857
+
+Monday - stack & queue
