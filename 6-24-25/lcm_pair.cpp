@@ -1,6 +1,7 @@
 // You are given an array of size n, find the numbers of pairs (i, j) such that i<j and 
 // LCM(arr[i], arr[j]) > max(arr[i], arr[j]) * 10
 
+#include <bits/stdc++.h>
 #include <iostream>
 using namespace std;
 
@@ -13,10 +14,10 @@ int gcd(int a, int b) {
 int lcm(int a, int b) {
 
     int g = gcd(a, b);
-    return (g/(a*b));
+    return ((a/g)*b);
 }
 
-int lcm_pair(int arr[], int n) {
+int brute_force(int arr[], int n) {
 
     int count = 0;
 
@@ -25,10 +26,25 @@ int lcm_pair(int arr[], int n) {
 
             if(i < j) {
                 int l = lcm(arr[i], arr[j]);
-                int n = max(arr[i], arr[j]) * 10;
-                if(l > n)
+                int num = max(arr[i], arr[j]) * 10;
+                if(l > num)
                     count++;
             }
+        }
+    }
+    return count;
+}
+
+int optimized(int arr[], int n) {
+
+    sort(arr, arr+n);
+
+    int count = 0;
+
+    for(int i=1; i<n; i++) {
+        for(int j=0; j<i; j++) {
+            if(arr[j] / gcd(arr[i], arr[j]) > 10)
+                count++;
         }
     }
     return count;
