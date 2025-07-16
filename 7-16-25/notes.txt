@@ -1,0 +1,13 @@
+Spanning Tree
+    A subgraph of any given graph
+    contains all the vertices
+    all the vertices are connected
+    no loop
+    minimum possible distance
+
+    Algorithms -
+        Prims - choose local minimum without creating any loop
+        Kruskal - choose global minimum without creating any loop
+
+
+Question 1 - leetcode 1928
