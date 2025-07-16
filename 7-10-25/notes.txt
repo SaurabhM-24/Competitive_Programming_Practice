@@ -1,0 +1,35 @@
+Dynamic Programming
+
+DP with state comparison
+	256 - premium
+	188
+
+
+DP on tree
+	337
+	1245 - premium
+	GFG - largest independent set
+
+
+Digit DP
+	902
+	233
+	2376
+
+Greed + partial DP
+	300
+	674
+
+Game theory + DP
+	877
+	1140
+	1406
+
+DP on interval
+	300
+	1000
+	664
+
+DP on circular array
+	213
+	714

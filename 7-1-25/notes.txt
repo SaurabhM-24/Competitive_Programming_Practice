@@ -1,0 +1,8 @@
+Linked List
+    Question 1: Reverse a linked list - Leetcode 206
+    Question 2: Palindrome Linked list - Leetcode 234
+    Question 3: Merge sorted linked list - Leetcode 21
+    Question 4: Reverse nodes in k-group - Leetcode 25
+
+Hashing
+    

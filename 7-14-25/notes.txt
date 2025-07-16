@@ -1,0 +1,15 @@
+Graphs
+	A collection of edges and vertices
+	Every tree a graph (relaxation from parent child relation)
+
+	types
+		Directed graph
+		Undirected graph
+
+		Cyclic
+		Acyclic
+
+		Connected
+
+	Adjacency list -> better -> O(V+E)
+	Adjacency matrix -> O(n^2)
