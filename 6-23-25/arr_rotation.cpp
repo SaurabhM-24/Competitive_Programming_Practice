@@ -52,3 +52,11 @@ int main() {
 
     return 0;
 }
+
+
+/* Practice problem links:
+1. https://leetcode.com/problems/rotate-array/description/
+2. https://www.hackerrank.com/challenges/circular-array-rotation/problem
+3. https://www.hackerrank.com/challenges/array-left-rotation/problem
+4. https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1
+*/
