@@ -50,3 +50,10 @@ int main() {
 
     return 0;
 }
+
+
+/* Relevant Problem Links:
+    1. https://www.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1
+    2. https://leetcode.com/problems/maximum-subarray/description/
+*/
+
